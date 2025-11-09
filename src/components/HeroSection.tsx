@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Code, Palette } from "lucide-react";
+import { ArrowRight, Code, Palette, MessageCircle } from "lucide-react";
 import { Scene } from "@/components/ui/rubik-s-cube";
 
 const HeroSection = () => {
@@ -96,8 +96,13 @@ const HeroSection = () => {
               variant="outline" 
               size="lg" 
               className="text-lg px-8 py-6 min-w-[200px] bg-background/5 backdrop-blur-sm border-border hover:bg-background/10 text-foreground hover:text-foreground"
+              onClick={() => {
+                const message = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços da EVO LINK.");
+                window.open(`https://wa.me/553182530718?text=${message}`, "_blank", "noopener,noreferrer");
+              }}
             >
               Entrar em Contato
+              <MessageCircle className="w-5 h-5 ml-2" />
             </Button>
           </div>
           
