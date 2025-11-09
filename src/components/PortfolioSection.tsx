@@ -17,14 +17,14 @@ const projects = [
     category: "SaaS"
   },
   {
-    name: "Ibaesão Bene",
-    description: "Website institucional e apresentação da empresa",
+    name: "IBAE São Benedito",
+    description: "Website Feito Para Igreja",
     url: "https://ibaesaobene.vercel.app/",
     category: "Website"
   },
   {
-    name: "JB Retas Extra",
-    description: "E-commerce e plataforma de vendas online",
+    name: "JB Renda Extra",
+    description: "Plataforma de hora extra do posto JBretas",
     url: "https://vercel.com/dutras-projects-a1591857/jbretasextra",
     category: "E-commerce"
   },
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     name: "EVO LINK",
-    description: "Plataforma de autenticação e gestão de links",
+    description: "Plataforma de administração de estoque para revenda",
     url: "https://www.evoolink.site/auth",
     category: "Web App"
   }
